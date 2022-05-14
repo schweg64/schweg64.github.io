@@ -1,0 +1,16 @@
+html{
+    background-color:rgb(59, 74, 83);
+}
+
+.container-fluid{
+    background-color:rgb(122, 147, 172);
+}
+nav{
+    background-color:rgb(40,44,44);
+}
+.nav-link{
+    color:rgb(236, 225, 211);
+}
+.nav-link:hover{
+    color:rgb(255, 251, 245);
+}
