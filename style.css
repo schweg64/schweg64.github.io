@@ -8,9 +8,15 @@ nav{
     background-color:rgb(40,44,44);
 }
 .nav-link{
-    color:rgb(236, 236, 236);
+    color:rgb(170, 170, 170);
+}
+.nav-item.active .nav-link{
+    color:rgb(230, 230, 230);
 }
 .nav-link:hover{
+    color:rgb(255, 255, 255);
+}
+.nav-item.active .nav-link:hover{
     color:rgb(255, 255, 255);
 }
 .card-header{
