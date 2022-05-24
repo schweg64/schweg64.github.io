@@ -19,12 +19,18 @@ nav{
 .nav-item.active .nav-link:hover{
     color:rgb(255, 255, 255);
 }
+.ri-menu-line{
+    color:gray;
+}
+
 .card-header{
     font-weight: bold;
 }
+
 #ego{
 width:250px;
 }
+
 .gallery{
     /* Flexbox: Justify Content & Item Align */
     display: flex; 
