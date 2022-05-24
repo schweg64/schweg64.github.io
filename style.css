@@ -41,9 +41,16 @@ width:250px;
     width: 125px;
 }
 
-
+@media only screen and (min-width:651px){
+    .proj-row .card{
+        width:45%;
+    }
+}
 @media only screen and (max-width:650px){
     .gallery{
+        flex-direction: column;
+    }
+    .proj-row{
         flex-direction: column;
     }
 }
