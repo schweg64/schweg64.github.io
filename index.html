@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Schwegel</title>
+    <link rel="icon" type="image/png" href="img/robot-fill.png">
 
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,7 +20,17 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Remixicon -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+		integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+		crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js" 
+        integrity="sha512-VjRpiWhUqdNa9bwBV7LnlG8CwsCVPenFyOQTSRTOGHw/tjtME96zthh0Vv9Itf3i8w4CkUrdYaS6+dAt1m1YXQ==" 
+        crossorigin="anonymous"></script>
     <!--- Custom Styling -->
     <link rel="stylesheet" href="style.css"/>
 </head>
@@ -51,15 +62,16 @@
             </ul>
         </div>  
     </nav>
-    <div class="container-fluid d-flex justify-content-center align-items-center">
+    <div class="container-fluid d-flex justify-content-center align-items-center py-4">
         <div class="d-flex align-items-center my-4">
         <div class="col-sm-auto">
-            <img src="img/me.png" class="img-thumbnail rounded-circle bg-dark border-dark" id="ego">
+            <img src="img/me.png" class="img-thumbnail rounded-circle" id="ego">
         </div>
-        <div class="col-md-auto">
-            <h1><b>Ryan Schwegel</b></h1>
-            <h3>Software Developer</h3>
+        <div class="col-md-auto" id="titlecard">
+            <h1 class="text-light"><b>Ryan Schwegel</b></h1>
+            <h3 class="text-light">Software Developer</h3>
         </div>
         </div>
     </div>
+    <script src="effect.js"></script>
 </body>

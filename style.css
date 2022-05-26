@@ -28,9 +28,12 @@ nav{
 }
 
 #ego{
-width:250px;
+    width:250px;
+    display:none;
 }
-
+#titlecard{
+    display:none;
+}
 .gallery{
     /* Flexbox: Justify Content & Item Align */
     display: flex; 
