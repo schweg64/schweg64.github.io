@@ -35,17 +35,17 @@ nav{
     display:none;
 }
 
-.gallery-item{
-    width: 125px;
-}
-
 @media only screen and (min-width:651px){
     .proj-row .card{
         width:45%;
     }
 }
+@media only screen and (max-width:1000px){
+    #edu{
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width:650px){
-
     .proj-row{
         flex-direction: column;
     }
