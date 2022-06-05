@@ -1,5 +1,5 @@
-let timeout = 500;
-let rScale = 15, gScale = 5, bScale = 10;
+const timeout = 500;
+let rScale = 15, gScale = 5;
 $(".container-fluid").css('background-color','rgb(60,60,224)');
 function anim(r, g, b){
     $(".container-fluid").animate({
